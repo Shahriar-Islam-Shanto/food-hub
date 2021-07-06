@@ -4,6 +4,36 @@ body{
     background-color: #303340
    
 }
+
+a {
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 15px;
+    color: white;
+}
+.menu-list{
+    
+    align-items: right;
+    margin: auto;
+    width: 20%;
+}
+.logo{
+    align-items: left;
+    font-size: 25px;
+    margin: auto;
+    width: 80%;
+}
+.top-menu{
+    color: white;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 h1{
     font-size: 50px;
 }
@@ -13,13 +43,13 @@ h1{
     text-align: justify;
 }
 .headline-section{
- display: flex;
- color: white; 
- text-align: justify;
- align-items: center;
- margin: auto;
- width: 80%;
- margin-bottom: 5%;
+    display: flex;
+    color: white; 
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 5%;
 }
 .orange-color{
     color: orangered;
@@ -35,13 +65,13 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
 }
 
 .half-width img{
     width: 100%;
+    padding-left: 15%;
 }
 .second-half-width{
     width: 50%;
@@ -65,11 +95,11 @@ h1{
     margin-bottom: 5%;
 }
 .about-us{
-width: 50%;
-padding-left: 5%;
-padding-right: 5%;
-padding-top: 12%;
-}
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 12%;
+    }
 h2{
     font-size: 30px;
 }
@@ -87,7 +117,8 @@ h2{
     text-align: justify;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5%;;
+    margin-bottom: 5%;
+    margin: auto;
    }
 .recipies{
     width: 20%;
