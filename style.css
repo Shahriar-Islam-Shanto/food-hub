@@ -1,6 +1,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    margin: 40px;
+    margin: 0px;
     background-color: #303340
    
 }
@@ -12,26 +12,62 @@ h1{
     color: wheat;
     text-align: justify;
 }
-section{
+.first-section{
  display: flex;
  color: white; 
- text-align: justify  
+ text-align: justify;
+ margin-bottom: 5%;
 }
 .orange-color{
     color: orangered;
 }
 .button{
+    text-decoration: none;
     background-image: linear-gradient(red, orange);
     padding: 10px 20px;
-    weight: 700px;
-    font-size: 20px;
+    font-weight: 700px;
+    font-size: 15px;
     color: white;
     border-radius: 10px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
 }
+
 .half-width img{
     width: 70%;
+}
+.second-half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+.second-half-width img{
+    width: 70%;
+    padding-bottom: 20%;
+    
+}
+.second-section{
+    background-image: url(images/image2.png);
+    background-repeat: no-repeat;;
+    display: flex;
+    color: white; 
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 5%;
+}
+h2{
+    font-size: 30px;
+}
+#about-us{
+    font-size: 20px;
+}
+.third-section{
+    color: white; 
+    text-align: center;
+    margin-bottom: 5%;
 }
